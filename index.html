@@ -12,8 +12,26 @@
     
    <h1 class="game-title">Tic Tac Toe</h1>
     <div class="grid-container"></div>
-    <h2 class="game-status"></h2>
+    <div class="show-result">
+        <h2 class="game-status"></h2>
+    </div>
+    <div class="names-display">
+        <h2 id="display-player1" class="player"></h2>
+        <h2 id="display-player2" class="player"></h2>
+    </div>
     <button class="restart-game">Restart Game</button>
+
+    <form class="form">
+ 
+        <label id="form-input-1-label"><b>Player 1</b></label></br>
+        <input id="form-input1"  type="text" class="form-inputs" placeholder="write name ..." required></br>
+        
+        <label id="form-input-2-label"><b>Player 2</b></label></br>
+        <input id="form-input2"  type="text" class="form-inputs" placeholder="write name ..." required></br>
+
+        <button id="submit" class="submit-button">submit</button>
+
+    </form>
 
 
 </body>

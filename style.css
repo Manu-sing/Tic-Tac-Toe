@@ -13,28 +13,28 @@ body {
 }
 
 .grid-container {
-margin-top: 20px;
+margin-top: 30px;
 display: grid;
-width: 300px;
-height: 300px;
+width: 400px;
+height: 400px;
 grid-template-columns: repeat(3, 1fr);
 background-color: whitesmoke;
 }
 
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 134px;
+    height: 134px;
     border: 3px black solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .restart-game {
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 0.6rem;
-    padding: 8px 32px;
+    padding: 6px 27px;
     background-color: white;
     font-weight: bold;
     font-size: 16px;
@@ -43,7 +43,82 @@ background-color: whitesmoke;
 .game-title {
     margin-top: 30px;
     color: white;
-    font-size: 38px;
+    font-size: 50px;
+}
+
+.names-display {
+    display: none;
+    gap: 20px;
+}
+
+.player {
+    width: 120px;
+    height: 30px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-turn {
+    background-color: peru;
+}
+
+.show-result {
+    display: none;
+}
+
+.game-status {
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    border-radius: 0.3rem;
+
+}
+
+.form {
+    margin-top: 230px;
+    position:fixed;
+    top: 0;
+    width: 12%;
+    margin-right: 74%;
+    margin-left: 14%;
+    z-index: 9;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 0.6rem;  
+}
+
+.form-inputs {
+    width: 90%;
+    margin-right: 9%;
+    margin-left: 1%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    padding: 5px;
+    background-color: white;
+    
+}
+
+#submit {
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 5px 15px;
+    background-color: white;
+    font-weight: 700;
+    
 }
 
 
